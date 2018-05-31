@@ -14,9 +14,11 @@ Write tests that are friendly to newer programmers.
 const test = require("sunlit");
 
 test(_ => _("Expect", returnTrue(), "to equal", true));
+// Prints:
 // ✅ "Expect", returnTrue(), "to equal", true
 
 test(_ => _("Expect", throws(), "to equal", true));
+// Prints:
 // ❌ "Expect", throws(), "to equal", true
 //    but get error `Boom`
 //    on line 17
