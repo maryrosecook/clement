@@ -37,7 +37,7 @@ function failedWithUnmetExpectationTestCaseReport(
     expectationFromTestFn(testFn),
     "\n  ",
     "but it equals",
-    actual
+    `${actual}`
   ].join(" ");
 };
 

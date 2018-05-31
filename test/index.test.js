@@ -52,4 +52,20 @@ describe("sunlit", () => {
           '❌ "Expect", returnTrue(), "to equal", false \n   but get error `returnTrue is not defined` \n   on line 50');
     });
   });
+
+  describe("failure description", () => {
+    it("if expected undefined, put `undefined` not `` in message", () => {
+      expect(runAndReturnReport(
+        _ => _("Expect", true, "to equal", undefined)))
+        .to.equal(
+          '❌ "Expect", true, "to equal", undefined \n   but it equals true');
+    });
+
+    it("if expected null, put `null` not `` in message", () => {
+      expect(runAndReturnReport(
+        _ => _("Expect", true, "to equal", null)))
+        .to.equal(
+          '❌ "Expect", true, "to equal", null \n   but it equals true');
+    });
+  });
 });
