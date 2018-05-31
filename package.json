@@ -1,0 +1,24 @@
+{
+  "name": "sunlit",
+  "version": "1.0.0",
+  "description": "Write tests that are friendly to newer programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryrosecook/sunlit.git"
+  },
+  "author": "Mary Rose Cook <mary@maryrosecook.com> (https://maryrosecook.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maryrosecook/sunlit/issues"
+  },
+  "homepage": "https://github.com/maryrosecook/sunlit#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^5.0.10"
+  }
+}
