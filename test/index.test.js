@@ -3,7 +3,7 @@ const sinon = require("sinon");
 const runAndLogReport = require("../index");
 const runAndReturnReport = runAndLogReport.runAndReturnReport;
 
-describe("sunlit", () => {
+describe("clement", () => {
   describe("runAndLogReport", () => {
     it("logs test case run report", () => {
       let consoleLogStub = sinon.stub(console, "log");

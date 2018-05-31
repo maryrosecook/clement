@@ -1,4 +1,4 @@
-# Sunlit
+# Clement
 
 Write tests that are friendly to newer programmers.
 
@@ -12,7 +12,7 @@ Write tests that are friendly to newer programmers.
 ## Usage
 
 ```js
-const test = require("sunlit");
+const test = require("clement");
 
 test(_ => _("Expect", returnTrue(), "to equal", true));
 // Prints:
@@ -36,5 +36,5 @@ function throws() {
 ## Install
 
 ```
-$ npm install sunlit
+$ npm install clement
 ```

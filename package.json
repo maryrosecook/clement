@@ -1,5 +1,5 @@
 {
-  "name": "sunlit",
+  "name": "clement",
   "version": "2.0.0",
   "description": "Write tests that are friendly to newer programmers",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maryrosecook/sunlit.git"
+    "url": "git+https://github.com/maryrosecook/clement.git"
   },
   "author": "Mary Rose Cook <mary@maryrosecook.com> (https://maryrosecook.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maryrosecook/sunlit/issues"
+    "url": "https://github.com/maryrosecook/clement/issues"
   },
-  "homepage": "https://github.com/maryrosecook/sunlit#readme",
+  "homepage": "https://github.com/maryrosecook/clement#readme",
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
