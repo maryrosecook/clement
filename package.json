@@ -1,6 +1,6 @@
 {
   "name": "sunlit",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Write tests that are friendly to newer programmers",
   "main": "index.js",
   "scripts": {
