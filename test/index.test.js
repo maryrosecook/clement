@@ -49,7 +49,7 @@ describe("sunlit", () => {
       expect(runAndReturnReport(
         _ => _("Expect", returnTrue(), "to equal", false)))
         .to.equal(
-          '❌ "Expect", returnTrue(), "to equal", false \n   but get error `returnTrue is not defined` \n   on line 58');
+          '❌ "Expect", returnTrue(), "to equal", false \n   but get error `returnTrue is not defined` \n   on line 50');
     });
   });
 });
